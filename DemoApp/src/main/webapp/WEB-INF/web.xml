@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>DemoApp</display-name>
+  <!--
+   <servlet>
+     <servlet-name>abcd</servlet-name>
+     <servlet-class>com.virani.MyServlet</servlet-class>
+     <init-param>
+         <param-name>name</param-name>
+         <param-value>Harsh</param-value>
+        
+     </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+     <servlet-name>abcd</servlet-name>
+     <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  -->
+  <context-param>
+     <param-name>name</param-name>
+     <param-value>Mit</param-value>
+  </context-param>
+  
+   <context-param>
+     <param-name>Phone</param-name>
+     <param-value>Realme</param-value>
+  </context-param>
+  
+  
+</web-app>
+</element>
